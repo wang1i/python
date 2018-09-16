@@ -1,0 +1,36 @@
+import turtle as t
+t.screensize(800, 600)
+t.penup()
+t.goto(0, -200)
+t.pendown()
+t.circle(200)
+
+t.penup()
+t.goto(-100, -50)
+t.pendown()
+t.goto(0, -100)
+t.goto(100, -50)
+
+t.penup()
+t.goto( 0, -50)
+t.pendown()
+t.circle(50, steps = 3)
+
+t.penup()
+t.goto(-120, 100)
+t.pendown()
+t.begin_fill()
+t.fillcolor("black")
+t.circle(20)
+t.end_fill()
+
+t.penup()
+t.goto(120, 100)
+t.pendown()
+t.begin_fill()
+t.fillcolor("black")
+t.circle(20)
+t.end_fill()
+
+t.hideturtle()
+t.done()

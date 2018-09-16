@@ -1,0 +1,16 @@
+x1, y1 = eval(input("请输入点p1坐标："))
+x2, y2 = eval(input("请输入点p2坐标："))
+x3, y3 = eval(input("请输入点p3坐标："))
+import turtle as t
+t.penup()
+t.goto(x1, y1)
+t.pendown()
+t.write("(" + str(x1) + "," + str(y1) + ")")
+t.goto(x2, y2)
+t.write("(" + str(x2) + "," + str(y2) + ")")
+t.goto(x3, y3)
+t.write("(" + str(x3) + "," + str(y3) + ")")
+t.goto(x1, y1)
+
+t.hideturtle()
+t.done()
